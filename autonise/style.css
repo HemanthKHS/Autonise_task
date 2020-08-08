@@ -1,0 +1,91 @@
+.start{
+    background-size: cover;
+    background-image: url("image3.jpg");
+    background-attachment: fixed;
+}
+
+hr{
+    color:yellow;
+}
+
+
+.intro{
+    height: 80vh;
+    display: grid;
+    width: 100vw;
+    grid-template-columns:2fr 1fr;
+    grid-template-rows: 1fr;
+    
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.name{
+    grid-column: 1 / 2;
+    grid-row: 1;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(10vw) translateY(-10vh);
+    color:black;
+}
+.pic{
+    grid-column: 2 / 3;
+    grid-row: 1 ;
+    
+
+}
+#profile_pic{
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-10vh);
+    border-radius: 100%;
+    border-width: 3px;
+    border-style: solid;
+    border-color:tomato;
+}
+
+.objective{
+    height:50vh;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: black;
+    font-size: 20px;
+}
+.resume{
+    background-size: cover;
+    background-image: url("image4.jpg");
+    background-attachment: fixed;
+    height: 100vh;
+    align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .table1{
+        transform: scale(2.5);
+        color: white;
+        
+    }
+    .table1 tr {
+        color:red;
+    }
+    .skills{
+        background-size: cover;
+        background-image: url("image5.jpg");
+        background-attachment: fixed;
+        height: 150vh;
+        display: flex;
+        position: relative;
+        
+        color: black;
+          
+    }
+    .skills pre{
+        font-size: 25px;
+        display: flex;
+        transform: translateX(10vw);
+        
+    }
